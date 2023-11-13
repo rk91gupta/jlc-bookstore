@@ -24,7 +24,7 @@ pipeline {
         stage('3. Build and Push docker image') {
            steps {
                script {         
-                 def customImage = docker.build('dandesclasses/myjlc-bookstore', "./mydocker")
+                 def customImage = docker.build('1990rakesh/myjlc-bookstore', "./mydocker")
                  docker.withRegistry('https://registry-1.docker.io/v2/', 'mydockerhub') {
                  customImage.push("5.1.0")
                  }                     
