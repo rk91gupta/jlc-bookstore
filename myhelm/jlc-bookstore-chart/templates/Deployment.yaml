@@ -34,7 +34,7 @@ spec:
           value: jlc-mysql
         - name: JLC_MYSQL_PORT
           value: "3306"
-        image: dandesclasses/myjlc-bookstore:5.1.0
+        image: 1990rakesh/myjlc-bookstore:5.1.0
         name: jlc-bookstore-container
         ports:
         - containerPort: 8080
