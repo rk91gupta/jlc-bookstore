@@ -1,0 +1,15 @@
+pipeline {
+agent any
+    stages {
+        stage('Deploy On K8S Cluster with Helm ') {
+            steps {           
+                        sh 'pwd'
+                        sh 'cp -R myhelm/* . '
+	                    sh 'ls -ltr'
+                        sh 'pwd'
+                        sh '/usr/local/bin/helm upgrade --install jlc-mysql-app  jlc-mysql-chart'
+                        sh '/usr/local/bin/helm upgrade --install jlc-bookstore-app jlc-bookstore-chart'
+            }           
+        }
+    }
+}

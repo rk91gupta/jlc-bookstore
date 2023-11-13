@@ -1,0 +1,40 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: jlc-mysql-deployment
+  labels:
+    app: jlc-mysql
+    tier: database
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: jlc-mysql
+      tier: database
+  strategy:
+    type: RollingUpdate
+  template:
+    metadata:
+      labels:
+       app: jlc-mysql
+       tier: database
+    spec:
+      restartPolicy: Always
+      containers:
+      - env:
+        - name: MYSQL_DATABASE
+          value: myjlcbs
+        - name: MYSQL_ROOT_PASSWORD
+          value: srinivas
+        - name: MYSQL_USER
+          value: srinivas
+        - name: MYSQL_PASSWORD
+          value: srinivas
+        - name: MYSQL_HOST
+          value: jlc-mysql
+        - name: MYSQL_PORT
+          value: "3306"
+        image: 1990rakesh/jlc-mysql:8.0.34
+        name: jlc-mysql-container
+        ports:
+        - containerPort: 3306

@@ -1,0 +1,8 @@
+com/jlcindia/springboot/dao/BookDAO.class
+com/jlcindia/springboot/JLCWebConfig.class
+com/jlcindia/springboot/controller/IndexController.class
+com/jlcindia/springboot/service/BookServiceImpl.class
+com/jlcindia/springboot/service/BookService.class
+com/jlcindia/springboot/controller/BookController.class
+com/jlcindia/springboot/entity/Book.class
+com/jlcindia/springboot/MyBootApplication.class

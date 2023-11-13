@@ -1,0 +1,8 @@
+/home/rakesh/DevOps/CI-CD-Project/Workspace/jlc-bookstore/src/main/java/com/jlcindia/springboot/entity/Book.java
+/home/rakesh/DevOps/CI-CD-Project/Workspace/jlc-bookstore/src/main/java/com/jlcindia/springboot/service/BookService.java
+/home/rakesh/DevOps/CI-CD-Project/Workspace/jlc-bookstore/src/main/java/com/jlcindia/springboot/service/BookServiceImpl.java
+/home/rakesh/DevOps/CI-CD-Project/Workspace/jlc-bookstore/src/main/java/com/jlcindia/springboot/JLCWebConfig.java
+/home/rakesh/DevOps/CI-CD-Project/Workspace/jlc-bookstore/src/main/java/com/jlcindia/springboot/MyBootApplication.java
+/home/rakesh/DevOps/CI-CD-Project/Workspace/jlc-bookstore/src/main/java/com/jlcindia/springboot/controller/IndexController.java
+/home/rakesh/DevOps/CI-CD-Project/Workspace/jlc-bookstore/src/main/java/com/jlcindia/springboot/controller/BookController.java
+/home/rakesh/DevOps/CI-CD-Project/Workspace/jlc-bookstore/src/main/java/com/jlcindia/springboot/dao/BookDAO.java
