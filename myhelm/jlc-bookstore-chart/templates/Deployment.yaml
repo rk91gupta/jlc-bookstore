@@ -31,9 +31,9 @@ spec:
         - name: JLC_MYSQL_PASSWORD
           value: srinivas
         - name: JLC_MYSQL_HOST
-          value: jlc-mysql
+          value: localhost
         - name: JLC_MYSQL_PORT
-          value: "3306"
+          value: "31050"
         image: 1990rakesh/myjlc-bookstore:5.1.0
         name: jlc-bookstore-container
         ports:
