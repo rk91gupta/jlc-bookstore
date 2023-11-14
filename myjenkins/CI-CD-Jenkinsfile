@@ -39,8 +39,8 @@ pipeline {
                         sh 'cp -R myhelm/* . '
 	                    sh 'ls -ltr'
                         sh 'pwd'
-                        sh '/usr/bin/helm upgrade --install jlc-mysql-app  jlc-mysql-chart'
-                        sh '/usr/bin/helm upgrade --install jlc-bookstore-app jlc-bookstore-chart'
+                        sh 'helm upgrade --install jlc-mysql-app  jlc-mysql-chart'
+                        sh 'helm upgrade --install jlc-bookstore-app jlc-bookstore-chart'
             }           
         }
         
